@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/onehash/static/css/main.d9063617.css",
+    "main.js": "/onehash/static/js/main.11a59477.js",
+    "index.html": "/onehash/index.html",
+    "main.d9063617.css.map": "/onehash/static/css/main.d9063617.css.map",
+    "main.11a59477.js.map": "/onehash/static/js/main.11a59477.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9063617.css",
+    "static/js/main.11a59477.js"
+  ]
+}
