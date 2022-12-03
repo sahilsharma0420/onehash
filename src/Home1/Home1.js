@@ -1,7 +1,14 @@
-import React from "react";
+import React,{useCallback,useState} from "react";
+import {motion} from 'framer-motion'
 import "./Home1.css";
 
 function Home1() {
+  const [counter,setCounter]=useState(0)
+
+  useCallback(setTimeout(()=>{
+    setCounter((counter+1)%3)
+    console.log(counter)
+  },3000),[])
   return (
     <div className="home1">
       <div className="home1-upper">
@@ -10,7 +17,7 @@ function Home1() {
             Schedule Tracking Of Your Field Work And Accelerate Your Business
             With{" "}
           </p>
-          <div className="words">
+       {/*   <div className="words">
             <span  style={{ color: "red", fontSize: "45px" }}>
               {" "}
               Customized ERP
@@ -22,7 +29,30 @@ function Home1() {
               {" "}
               Sales CRM
             </span>
-          </div>
+  </div> */}
+          <div style={{width:'100',height:'auto'}}>
+      {counter === 0 ? <motion.div initial={{opacity:0}}
+      animate={{opacity:1,
+        transition:{duration:3}
+              }}
+      exit={{opacity:0}}>
+        <h1 style={{ color: "red", fontSize: "45px" }}>Customized ERP</h1>
+      </motion.div>: ''}
+      {counter === 1 ? <motion.div initial={{opacity:0}}
+      animate={{opacity:1,
+        transition:{duration:3}
+              }}
+      exit={{opacity:0}}>
+        <h1 style={{ color: "#F8A500", fontSize: "45px" }}>Interactive Live Chat</h1>
+      </motion.div>: ''}
+      {counter === 2 ? <motion.div initial={{opacity:0}}
+      animate={{opacity:1,
+        transition:{duration:3}
+              }}
+      exit={{opacity:0}}>
+        <h1 style={{ color: "#007FE4", fontSize: "45px" }}>Sales CRM</h1>
+      </motion.div>: ''}
+    </div>
 
           <p className="home1-upper-left-text2">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
