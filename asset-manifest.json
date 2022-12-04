@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/onehash/static/css/main.954acc67.css",
+    "main.css": "/onehash/static/css/main.92c7dd79.css",
     "main.js": "/onehash/static/js/main.edc60cfc.js",
     "index.html": "/onehash/index.html",
-    "main.954acc67.css.map": "/onehash/static/css/main.954acc67.css.map",
+    "main.92c7dd79.css.map": "/onehash/static/css/main.92c7dd79.css.map",
     "main.edc60cfc.js.map": "/onehash/static/js/main.edc60cfc.js.map"
   },
   "entrypoints": [
-    "static/css/main.954acc67.css",
+    "static/css/main.92c7dd79.css",
     "static/js/main.edc60cfc.js"
   ]
 }
