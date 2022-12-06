@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/onehash/static/css/main.b2c5c38c.css",
-    "main.js": "/onehash/static/js/main.edc60cfc.js",
+    "main.css": "/onehash/static/css/main.bdff3a6a.css",
+    "main.js": "/onehash/static/js/main.02c6325d.js",
     "index.html": "/onehash/index.html",
-    "main.b2c5c38c.css.map": "/onehash/static/css/main.b2c5c38c.css.map",
-    "main.edc60cfc.js.map": "/onehash/static/js/main.edc60cfc.js.map"
+    "main.bdff3a6a.css.map": "/onehash/static/css/main.bdff3a6a.css.map",
+    "main.02c6325d.js.map": "/onehash/static/js/main.02c6325d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2c5c38c.css",
-    "static/js/main.edc60cfc.js"
+    "static/css/main.bdff3a6a.css",
+    "static/js/main.02c6325d.js"
   ]
 }
