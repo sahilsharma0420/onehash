@@ -11,6 +11,7 @@ import Home9 from "../Home9/Home9";
 import Home10 from "../Home10/Home10";
 import Home11 from "../Home11/Home11";
 import Home12 from "../Home12/Home12";
+import Home13 from "../Home13/Home13";
 function Home() {
   return (
     <div>
@@ -27,6 +28,8 @@ function Home() {
 <Home11/>
 
   <Home12/> 
+  
+  <Home13/> 
     </div>
   )
 }

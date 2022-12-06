@@ -36,21 +36,21 @@ function Home1() {
         transition:{duration:3}
               }}
       exit={{opacity:0}}>
-        <h1 style={{ color: "red", fontSize: "45px" }}>Customized ERP</h1>
+        <h1 className="blinking-text" style={{ color: "red"}}>Customized ERP</h1>
       </motion.div>: ''}
       {counter === 1 ? <motion.div initial={{opacity:0}}
       animate={{opacity:1,
         transition:{duration:3}
               }}
       exit={{opacity:0}}>
-        <h1 style={{ color: "#F8A500", fontSize: "45px" }}>Interactive Live Chat</h1>
+        <h1 className="blinking-text" style={{ color: "#F8A500"}}>Interactive Live Chat</h1>
       </motion.div>: ''}
       {counter === 2 ? <motion.div initial={{opacity:0}}
       animate={{opacity:1,
         transition:{duration:3}
               }}
       exit={{opacity:0}}>
-        <h1 style={{ color: "#007FE4", fontSize: "45px" }}>Sales CRM</h1>
+        <h1 className="blinking-text" style={{ color: "#007FE4"}}>Sales CRM</h1>
       </motion.div>: ''}
     </div>
 

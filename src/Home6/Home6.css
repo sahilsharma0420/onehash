@@ -42,3 +42,13 @@
     width: 100%;
   }
 }
+@media (max-width:500px) {
+  .home6-left{
+    padding: 50px 25px;
+
+  }
+  .home6-text2{
+    width: 100%;
+    text-align: justify;
+  }
+}

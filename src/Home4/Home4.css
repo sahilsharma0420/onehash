@@ -41,3 +41,13 @@
     width: 100%;
   }
 }
+@media (max-width:500px) {
+  .home4-right{
+    padding: 50px 25px;
+
+  }
+  .home4-text2{
+    width: 100%;
+    text-align: justify;
+  }
+}
